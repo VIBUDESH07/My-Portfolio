@@ -1,17 +1,41 @@
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-  }
-  
-  .blink {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
-  }
-  
-  .header-box {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+/* Ensure the following styles are in your header.css */
+
+.header-box {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
+  
+  .portfolio-blink {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: orange;
+    padding-bottom: 10px; /* Add spacing below the text */
+    transition: transform 0.3s ease-in-out, color 0.3s ease; /* Smooth transition for zoom effect and color */
+  }
+  
+  .portfolio-blink::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    transform: scaleX(0);
+    
+    transition: transform 0.5s ease;
+  }
+  
+  .portfolio-blink:hover::after {
+    transform: scaleX(1);
+  }
+  
+  .portfolio-blink:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    color: red; /* Change text color on hover */
+  }
+  

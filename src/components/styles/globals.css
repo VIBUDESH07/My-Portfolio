@@ -1,0 +1,18 @@
+@keyframes bgFadeIn {
+    from {
+      background-color: white;
+    }
+    to {
+      background-color: white;
+      
+    }
+  }
+  
+  .bg-animation {
+    transition: background-color 0.3s ease;
+  }
+  
+  .bg-animation:hover {
+    animation: bgFadeIn 0.3s forwards;
+  }
+  
