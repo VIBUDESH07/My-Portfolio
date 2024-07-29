@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black flex items-center justify-center p-4">
+    <div id="about" className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black flex items-center justify-center p-4">
       <div className="container mx-auto flex flex-col md:flex-row p-8 bg-gray-900 shadow-2xl rounded-xl mt-16">
         <div className="flex-1 text-left mb-8 md:mb-0 md:mr-8">
           <h1 className="text-5xl font-bold text-orange-400 mb-2 drop-shadow-lg transform transition-transform duration-300 hover:scale-105 hover:text-green-500">
@@ -80,6 +80,13 @@ const About = () => {
             alt="Vibudesh R B" 
             className="w-56 h-56 rounded-full object-cover mx-auto border-4 border-orange-500 shadow-lg"
           />
+          <a 
+            href="/path/to/your-resume.pdf" 
+            download
+            className="mt-14 inline-block bg-orange-500 text-black px-6 py-3 rounded-lg font-semibold text-lg transition-transform duration-300 transform hover:scale-105 hover:bg-orange-600"
+          >
+            Download Resume
+          </a>
         </div>
       </div>
     </div>

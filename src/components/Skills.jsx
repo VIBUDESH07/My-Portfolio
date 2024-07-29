@@ -31,7 +31,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black flex items-center justify-center p-4">
+    <div id="skills" className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black flex items-center justify-center p-4">
       <div className="container mx-auto py-16">
         <div className="text-center mb-12 relative">
           <h2 className="text-5xl font-bold text-orange-400 mb-4 relative z-10">

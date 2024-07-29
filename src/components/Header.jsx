@@ -11,11 +11,13 @@ const Header = () => {
         <nav>
           <a href="#about" className="mx-10 px-3 py-2 transition duration-300 transform hover:bg-orange-500 hover:text-black hover:rounded-md text-shadow">About</a>
           <a href="#projects" className="mx-10 px-3 py-2 transition duration-300 transform hover:bg-orange-500 hover:text-black hover:rounded-md text-shadow">Projects</a>
-          <a href="#contact" className="mx-10 px-3 py-2 transition duration-300 transform hover:bg-orange-500 hover:text-black hover:rounded-md text-shadow">Contact</a>
-        </nav>
-        <button className="bg-orange-500 text-black px-4 py-2 rounded-full transition duration-300 transform hover:bg-orange-600 text-shadow">
-          Email
-        </button>
+          <a href="#skills" className="mx-10 px-3 py-2 transition duration-300 transform hover:bg-orange-500 hover:text-black hover:rounded-md text-shadow">Skills</a>
+          </nav>
+        <a href="#contact">
+          <button className="bg-orange-500 text-black px-4 py-2 rounded-full transition duration-300 transform hover:bg-orange-600 text-shadow">
+            Contact
+          </button>
+        </a>
       </div>
     </header>
   );
