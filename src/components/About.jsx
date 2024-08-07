@@ -76,7 +76,7 @@ const About = () => {
         </div>
         <div className="flex-1 text-center">
           <img 
-            src="your-photo-url.jpg" 
+            src="/logos/20240807_182316.jpg" 
             alt="Vibudesh R B" 
             className="w-56 h-56 rounded-full object-cover mx-auto border-4 border-orange-500 shadow-lg"
           />
