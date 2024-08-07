@@ -83,7 +83,7 @@ const About = () => {
           />
           <a 
             href="/logos/VIB(3).pdf" 
-            download
+          
             className="mt-14 inline-block bg-orange-500 text-black px-6 py-3 rounded-lg font-semibold text-lg transition-transform duration-300 transform hover:scale-105 hover:bg-orange-600"
           >
             Download Resume
