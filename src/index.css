@@ -2,8 +2,134 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
     background-color: black;
     color: orange;
+}
+
+/* Base Styles */
+html {
+  font-size: 16px; /* Base font size */
+}
+
+body {
+  font-size: 1rem; /* 1rem = 16px */
+}
+
+/* Fluid Layout */
+.container {
+  width: 90%; /* Use percentage for responsive width */
+  max-width: 1200px; /* Set a max-width to prevent overly wide content */
+}
+
+/* Header Styles */
+.header-box {
+  padding: 2rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  font-size: 1.25rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+/* Background Logos */
+.logo-float {
+  width: 100px;
+  height: 100px;
+}
+
+/* Media Queries */
+
+/* For devices with a max-width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .header-box {
+    padding: 1rem; /* Reduce padding on smaller screens */
   }
-  
+
+  .container {
+    flex-direction: column; /* Stack header items vertically */
+    align-items: center; /* Center-align items */
+  }
+
+  nav {
+    margin-top: 1rem; /* Add spacing between items */
+  }
+
+  nav a {
+    margin: 0.5rem 0; /* Stack navigation links vertically */
+    font-size: 1.2rem; /* Slightly larger font size for better readability */
+  }
+
+  button {
+    margin-top: 1rem; /* Add spacing above the button */
+    font-size: 1rem; /* Adjust button font size */
+  }
+
+  .logo-float {
+    width: 50px; /* Adjust logo size for smaller screens */
+    height: 50px;
+  }
+}
+
+/* For medium screens (tablets) */
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+/* For small screens (phones) */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
+
+/* For extra small screens (phones and smaller) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+
+  h2 {
+    font-size: 1.25rem; /* Adjust as needed */
+  }
+
+  h3 {
+    font-size: 1rem; /* Adjust as needed */
+  }
+
+  p {
+    font-size: 0.875rem; /* Adjust as needed */
+  }
+}
