@@ -1,0 +1,42 @@
+/* project.css */
+
+.group:hover .group-hover\:scale-110 {
+    transform: scale(1.1);
+  }
+  
+  .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  
+  .group-hover\:scale-110 {
+    transform: scale(1.1);
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .group img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .group .absolute {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  .group:hover .absolute {
+    opacity: 1;
+  }
+  
+  .group .absolute img {
+    margin: 0 0.5rem;
+  }
+  
