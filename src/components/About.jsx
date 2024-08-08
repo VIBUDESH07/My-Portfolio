@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaLinkedin, FaGithub, FaInstagram, FaCode } from 'react-icons/fa'; // Importing icons
 
 const About = () => {
   return (
@@ -18,8 +18,7 @@ const About = () => {
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-4xl font-bold text-orange-400 mb-4 flex items-center">
               <span className="mr-2">🏆</span> Achievements
-            </h3>
-            <ul className="list-decimal pl-6 text-lg text-gray-300 space-y-2">
+            </h3>  <ul className="list-decimal pl-6 text-lg text-gray-300 space-y-2">
               <li className="relative group flex items-center">
                 <span className="mr-2">🥇</span> Hackathon: 1 Win
                 <span className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 w-64 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -82,14 +81,28 @@ const About = () => {
             className="w-56 h-56 rounded-full object-cover mx-auto border-4 border-orange-500 shadow-lg"
           />
           <a 
-  href="logos/VIB (3).pdf" 
-  download="Vibudesh_RB_Resume.pdf"
-  className="mt-14 inline-block bg-orange-500 text-black px-6 py-3 rounded-lg font-semibold text-lg transition-transform duration-300 transform hover:scale-105 hover:bg-orange-600"
-  target="_blank"
->
-  Download Resume
-</a>
+            href="logos/VIB (3).pdf" 
+            download="Vibudesh_RB_Resume.pdf"
+            className="mt-14 inline-block bg-orange-500 text-black px-6 py-3 rounded-lg font-semibold text-lg transition-transform duration-300 transform hover:scale-105 hover:bg-orange-600"
+            target="_blank"
+          >
+            Download Resume
+          </a>
 
+          <div className="mt-8 flex justify-center space-x-6">
+            <a href="https://www.linkedin.com/in/vibudesh-r-b-906868256/" target="_blank" rel="noopener noreferrer" className="text-gray-300 text-3xl hover:text-blue-500">
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/VIBUDESH07" target="_blank" rel="noopener noreferrer" className="text-gray-300 text-3xl hover:text-gray-400">
+              <FaGithub />
+            </a>
+            <a href="https://leetcode.com/your-profile" target="_blank" rel="noopener noreferrer" className="text-gray-300 text-3xl hover:text-yellow-400">
+              <FaCode />
+            </a>
+            <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer" className="text-gray-300 text-3xl hover:text-pink-500">
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
     </div>
