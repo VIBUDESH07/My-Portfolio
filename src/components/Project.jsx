@@ -26,7 +26,103 @@ const projects = [
       '/images/blood-bank-3.jpg',
     ],
   },
-  // Add more projects here...
+  {
+    title: 'Hospital Connection System',
+    description: 'A web application that connects hospitals with patients, offering features like appointment scheduling, patient records management, and real-time communication.',
+    technologies: 'Spring Boot, MySQL, Thymeleaf, Java',
+    date: '2023',
+    link: 'https://yourprojectlink.com/hospital-connection-system',
+    photos: [
+      '/images/hospital-connection-1.jpg',
+      '/images/hospital-connection-2.jpg',
+      '/images/hospital-connection-3.jpg',
+    ],
+  },
+  {
+    title: 'Blood Bank Connection System using Firebase',
+    description: 'A Firebase-based blood bank connection system that facilitates blood donation and management with real-time data syncing and user authentication.',
+    technologies: 'Firebase, React, Tailwind CSS',
+    date: '2023',
+    link: 'https://yourprojectlink.com/blood-bank-firebase',
+    photos: [
+      '/images/blood-bank-firebase-1.jpg',
+      '/images/blood-bank-firebase-2.jpg',
+      '/images/blood-bank-firebase-3.jpg',
+    ],
+  },
+  {
+    title: 'Machine Maintenance System',
+    description: 'A MERN stack application for managing and scheduling machine maintenance tasks, with real-time status tracking and alerts.',
+    technologies: 'MongoDB, Express, React, Node.js',
+    date: '2023',
+    link: 'https://yourprojectlink.com/machine-maintenance',
+    photos: [
+      '/images/machine-maintenance-1.jpg',
+      '/images/machine-maintenance-2.jpg',
+      '/images/machine-maintenance-3.jpg',
+    ],
+  },
+  {
+    title: 'Face Anti-Spoofing Mechanism',
+    description: 'An advanced face anti-spoofing mechanism that ensures secure facial recognition by detecting live faces using ONNX models in the browser.',
+    technologies: 'ONNX, React, TensorFlow.js',
+    date: '2023',
+    link: 'https://yourprojectlink.com/face-anti-spoofing',
+    photos: [
+      '/images/face-anti-spoofing-1.jpg',
+      '/images/face-anti-spoofing-2.jpg',
+      '/images/face-anti-spoofing-3.jpg',
+    ],
+  },
+  {
+    title: 'E-commerce Website using Flutter',
+    description: 'A cross-platform e-commerce application built with Flutter, featuring product browsing, user authentication, and secure payment integration.',
+    technologies: 'Flutter, Dart, Firebase',
+    date: '2023',
+    link: 'https://yourprojectlink.com/flutter-ecommerce',
+    photos: [
+      '/images/flutter-ecommerce-1.jpg',
+      '/images/flutter-ecommerce-2.jpg',
+      '/images/flutter-ecommerce-3.jpg',
+    ],
+  },
+  {
+    title: 'WhatsApp UI Clone using Flutter',
+    description: 'A clone of the WhatsApp UI built using Flutter, mimicking the chat interface and navigation structure for both Android and iOS.',
+    technologies: 'Flutter, Dart',
+    date: '2023',
+    link: 'https://yourprojectlink.com/flutter-whatsapp',
+    photos: [
+      '/images/flutter-whatsapp-1.jpg',
+      '/images/flutter-whatsapp-2.jpg',
+      '/images/flutter-whatsapp-3.jpg',
+    ],
+  },
+  {
+    title: 'Portfolio and Projects Hosted on Render',
+    description: 'A portfolio showcasing various projects, all hosted on Render, demonstrating full-stack development skills and deployment capabilities.',
+    technologies: 'React, Tailwind CSS, Node.js, Render',
+    date: '2023',
+    link: 'https://yourprojectlink.com/portfolio-render',
+    photos: [
+      '/images/portfolio-render-1.jpg',
+      '/images/portfolio-render-2.jpg',
+      '/images/portfolio-render-3.jpg',
+    ],
+  },
+  {
+    title: 'Flight Reservation System',
+    description: 'A web-based flight reservation system allowing users to search for flights, book tickets, and manage reservations.',
+    technologies: 'React, MySQL, Flask',
+    date: '2023',
+    link: 'https://yourprojectlink.com/flight-reservation',
+    photos: [
+      '/images/flight-reservation-1.jpg',
+      '/images/flight-reservation-2.jpg',
+      '/images/flight-reservation-3.jpg',
+    ],
+  },
+  // Add more projects here if needed...
 ];
 
 const Project = () => {
