@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram, FaCode } from 'react-icons/fa'; // Importing icons
+import { FaLinkedin, FaGithub, FaInstagram, FaCode } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -18,11 +18,12 @@ const About = () => {
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-4xl font-bold text-orange-400 mb-4 flex items-center">
               <span className="mr-2">🏆</span> Achievements
-            </h3>  <ul className="list-decimal pl-6 text-lg text-gray-300 space-y-2">
+            </h3>
+            <ul className="list-decimal pl-6 text-lg text-gray-300 space-y-2">
               <li className="relative group flex items-center">
                 <span className="mr-2">🥇</span> Hackathon: 1 Win
-                <span className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 w-64 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <strong>Mediconnect:</strong> Developed a healthcare solution using
+                <span className="absolute z-10 left-full ml-2 top-1/2 transform -translate-y-1/2 w-72 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <strong>Mediconnect:</strong> Developed a healthcare solution using:
                   <ul className="list-disc pl-5 mt-2">
                     <li>HTML/CSS/JavaScript for the frontend</li>
                     <li>MySQL for the database</li>
@@ -33,8 +34,8 @@ const About = () => {
               </li>
               <li className="relative group flex items-center">
                 <span className="mr-2">🥉</span> HackFest: 1 Win
-                <span className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 w-64 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <strong>Web Scraping Project:</strong> Implemented a web scraping tool using
+                <span className="absolute z-10 left-full ml-2 top-1/2 transform -translate-y-1/2 w-72 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <strong>Web Scraping Project:</strong> Implemented a web scraping tool using:
                   <ul className="list-disc pl-5 mt-2">
                     <li>Python with BeautifulSoup</li>
                     <li>Automated data extraction</li>
@@ -43,8 +44,8 @@ const About = () => {
               </li>
               <li className="relative group flex items-center">
                 <span className="mr-2">🥇</span> Paper Presentations: 1 Win
-                <span className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 w-64 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <strong>Research on Data Privacy:</strong> Presented findings on
+                <span className="absolute z-10 left-full ml-2 top-1/2 transform -translate-y-1/2 w-72 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <strong>Research on Data Privacy:</strong> Presented findings on:
                   <ul className="list-disc pl-5 mt-2">
                     <li>Data protection techniques</li>
                     <li>Privacy regulations</li>
@@ -53,8 +54,8 @@ const About = () => {
               </li>
               <li className="relative group flex items-center">
                 <span className="mr-2">🥇</span> Coding Events: 2 Wins
-                <span className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 w-64 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <strong>Various Coding Challenges:</strong> Achieved top scores in
+                <span className="absolute z-10 left-full ml-2 top-1/2 transform -translate-y-1/2 w-72 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <strong>Various Coding Challenges:</strong> Achieved top scores in:
                   <ul className="list-disc pl-5 mt-2">
                     <li>Algorithmic challenges</li>
                     <li>Problem-solving contests</li>
@@ -63,8 +64,8 @@ const About = () => {
               </li>
               <li className="relative group flex items-center">
                 <span className="mr-2">🏅</span> IoT Events: 1 Win
-                <span className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 w-64 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <strong>Smart Home Automation:</strong> Created an IoT project with
+                <span className="absolute z-10 left-full ml-2 top-1/2 transform -translate-y-1/2 w-72 p-4 bg-gray-700 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <strong>Smart Home Automation:</strong> Created an IoT project with:
                   <ul className="list-disc pl-5 mt-2">
                     <li>Embedded systems</li>
                     <li>IoT sensors and actuators</li>
