@@ -3,6 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes cracker {
+  0%, 100% { transform: scale(0.95); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+
+.cracker-animation {
+  animation: cracker 1s infinite ease-in-out;
+}
+
+
 body {
     background-color: black;
     color: orange;
