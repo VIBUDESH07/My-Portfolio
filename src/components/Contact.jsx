@@ -13,7 +13,7 @@ const Contact = () => {
           >
             <div className="flex flex-col space-y-6">
               <label className="text-gray-300">
-                <span className="block text-lg font-semibold mb-2">Name</span>
+                <span className="block text-lg font-semibold mb-">Name</span>
                 <input
                   type="text"
                   name="name"
