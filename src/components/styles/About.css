@@ -1,0 +1,6 @@
+.only-hover{
+    display: none;
+}
+.only-hover:hover{
+    display:block;
+}
