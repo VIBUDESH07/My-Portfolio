@@ -40,7 +40,7 @@ const About = () => {
               </li>
               <li className="relative flex items-center group">
                 <span className="mr-2">🥉</span> HackFest: 1 Win
-                <span className="absolute left-full ml-1 top-0 w-80 p-4 bg-blue-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-8 z-10">
+                <span className="absolute right-full mr-10 top-0 w-80 p-4 bg-blue-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-8 z-10">
                   <strong>Web Scraping Project:</strong> Implemented a web
                   scraping tool using:
                   <ul className="list-disc pl-5 mt-2">
