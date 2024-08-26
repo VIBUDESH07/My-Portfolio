@@ -7,7 +7,7 @@ const About = () => {
       id="about"
       className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black flex items-center justify-center p-4"
     >
-      <div className="container mx-auto flex flex-col md:flex-row p-8 bg-gray-900 shadow-2xl rounded-xl mt-16 overflow-visible relative">
+      <div className="container mx-auto flex flex-col md:flex-row p-8 bg-gray-900 shadow-2xl rounded-xl mt-16 relative overflow-visible">
         <div className="flex-1 text-left mb-8 md:mb-0 md:mr-8">
           <h1 className="text-5xl font-bold text-orange-400 mb-2 drop-shadow-lg transform transition-transform duration-300 hover:scale-105 hover:text-green-500">
             VIBUDESH R B
@@ -20,7 +20,7 @@ const About = () => {
             scalable web applications. I enjoy working with both front-end and
             back-end technologies to create seamless user experiences.
           </p>
-          <div className="bg-gray-800 p-6 rounded-lg shadow-lg relative overflow-visible">
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg relative">
             <h3 className="text-4xl font-bold text-orange-400 mb-4 flex items-center">
               <span className="mr-2">🏆</span> Achievements
             </h3>
@@ -40,7 +40,7 @@ const About = () => {
               </li>
               <li className="relative flex items-center group">
                 <span className="mr-2">🥉</span> HackFest: 1 Win
-                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-blue-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-2 z-10">
+                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-blue-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-8 z-10">
                   <strong>Web Scraping Project:</strong> Implemented a web
                   scraping tool using:
                   <ul className="list-disc pl-5 mt-2">
@@ -51,7 +51,7 @@ const About = () => {
               </li>
               <li className="relative flex items-center group">
                 <span className="mr-2">🥇</span> Paper Presentations: 1 Win
-                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-red-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-2 z-10">
+                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-red-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-8 z-10">
                   <strong>Research on Data Privacy:</strong> Presented findings
                   on:
                   <ul className="list-disc pl-5 mt-2">
@@ -62,7 +62,7 @@ const About = () => {
               </li>
               <li className="relative flex items-center group">
                 <span className="mr-2">🥇</span> Coding Events: 2 Wins
-                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-green-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-2 z-10">
+                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-green-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-8 z-10">
                   <strong>Various Coding Challenges:</strong> Achieved top
                   scores in:
                   <ul className="list-disc pl-5 mt-2">
@@ -73,7 +73,7 @@ const About = () => {
               </li>
               <li className="relative flex items-center group">
                 <span className="mr-2">🏅</span> IoT Events: 1 Win
-                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-purple-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-2 z-10">
+                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-purple-500 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-8 z-10">
                   <strong>Smart Home Automation:</strong> Created an IoT project
                   with:
                   <ul className="list-disc pl-5 mt-2">
