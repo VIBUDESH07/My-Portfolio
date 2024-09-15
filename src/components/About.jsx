@@ -41,7 +41,7 @@ const About = () => {
               </li>
               <li className="relative flex items-center group">
                 <span className="mr-2">🥉</span> HackFest: 1 Win
-                <span className="only-hover">
+                <span className="absolute left-full ml-4 top-0 w-80 p-4 bg-red-500 text-white text-sm rounded-lg border-2 border-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-8 z-10">
                   <strong>Web Scraping Project:</strong> Implemented a web
                   scraping tool using:
                   <ul className="list-disc pl-5 mt-2">
