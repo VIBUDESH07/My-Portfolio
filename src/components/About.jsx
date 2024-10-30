@@ -9,7 +9,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="bg-gray-50 py-20 mx-[2rem]">
+    <section id="about" className="bg-gray-50 py-20 mx-[2rem] mt-[7rem]">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row gap-16">
     
