@@ -22,37 +22,7 @@ function About() {
         </ul>
       </section>
 
-      <section id="projects">
-        <h2>My Projects</h2>
-
-        <div className="project">
-          <h3>Project #1: [Project Name]</h3>
-          <p><strong>Overview:</strong> A brief description of the project and its goals. Mention any challenges you solved or features implemented.</p>
-          <p><strong>Technologies Used:</strong> [React, Node.js, etc.]</p>
-          <p><strong>Outcome:</strong> Describe the success of the project, such as user feedback or metrics (if applicable).</p>
-        </div>
-
-        <div className="project">
-          <h3>Project #2: [Project Name]</h3>
-          <p><strong>Overview:</strong> A brief description of the project and its goals.</p>
-          <p><strong>Technologies Used:</strong> [React, Firebase, etc.]</p>
-          <p><strong>Outcome:</strong> Explain how the project improved or solved a problem for users or the client.</p>
-        </div>
-
-        <div className="project">
-          <h3>Project #3: [Project Name]</h3>
-          <p><strong>Overview:</strong> Brief summary of the project, focusing on what it achieved.</p>
-          <p><strong>Technologies Used:</strong> [HTML, CSS, JavaScript, etc.]</p>
-          <p><strong>Outcome:</strong> Any relevant success metrics, like increased user engagement or positive feedback.</p>
-        </div>
-
-      </section>
-
-      <footer>
-        <p>Feel free to reach out for collaboration!</p>
-        <p>Email: [your-email@example.com]</p>
-      </footer>
-    </div>
+ </div>
   );
 }
 
