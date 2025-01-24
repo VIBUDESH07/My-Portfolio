@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Thankyou = () => {
+const Header = () => {
   return (
     <div>
+      Hello
       
     </div>
   )
 }
 
-export default Thankyou
+export default Header

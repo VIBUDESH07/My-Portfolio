@@ -1,18 +1,10 @@
 import React from 'react';
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Header from "./components/Header";
-import Project from "./components/Project";
-import Skills from "./components/Skills";
+import Header from './components/styles/Header';
 
 function App() {
   return (
     <div className="App relative">
-        <Header/>
-        <About/>
-        <Project/>
-        <Skills/>
-        <Contact/>
+      <Header/>
       </div>
   );
 }
