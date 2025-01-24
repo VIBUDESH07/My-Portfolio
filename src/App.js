@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from './components/styles/Header';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <div className="App relative">
-      <Header/>
+      <Navbar/>
+      <Profile/>
       </div>
   );
 }
