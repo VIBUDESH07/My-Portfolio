@@ -1,16 +1,34 @@
 import React from 'react';
+import { FiHome } from 'react-icons/fi'; // Home icon
+import { FiInfo } from 'react-icons/fi'; // About icon
+import { FiBriefcase } from 'react-icons/fi'; // Projects icon
+import { FiMail } from 'react-icons/fi'; // Contact icon
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Vibudesh R B</div>
       <ul className="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#">
+            <FiHome /> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FiInfo /> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FiBriefcase /> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FiMail />
+          </a>
+        </li>
       </ul>
-      <button className="btn-primary">Get Started</button>
     </nav>
   );
 };
