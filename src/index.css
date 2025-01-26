@@ -4,7 +4,7 @@
 .navbar{
     display:flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;    
     justify-content: space-between;
     font-size: 20px;
     border:1px solid black;
@@ -25,3 +25,93 @@
 .btn-primary{
     padding: 0.5rem;
 }
+.profile-container{
+    display :grid;
+    margin: 0 4rem;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 10px rgb(162, 161, 161);
+}
+.profile-content{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+.profile-image{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-secondary {
+    padding: 10px 20px;
+    border: 2px solid #f4a261;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f4a261;
+    color: #1e1e1e;
+  }
+  /* Social Icons Styling */
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .social-icons .icon {
+    font-size: 2rem;
+    color: #999;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Specific Hover Effects */
+  .social-icons .icon.linkedin:hover {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .social-icons .icon.github:hover {
+    color: #333; /* GitHub black */
+  }
+  
+  .social-icons .icon.leetcode:hover {
+    color: #f89f1b; /* LeetCode yellow */
+  }
+  
+  /* Button Styling */
+  .btn-secondary {
+    padding: 10px 20px;
+    border: 2px solid #f4a261;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f4a261;
+    color: #1e1e1e;
+  }
