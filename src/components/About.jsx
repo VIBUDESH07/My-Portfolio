@@ -86,29 +86,26 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="flex justify-center md:w-1/3">
-          <div className="around">
-          <div className="tech-icons">
-      <img src="../logos/html.png" alt="HTML" className="icon" />
-      <img src="../logos/CSS3_logo_and_wordmark.svg" alt="CSS" className="icon" />
-      <img src="../logos/javascript.png" alt="JavaScript" className="icon" />
-      <img src="../logos/react.png" alt="React" className="icon" />
+          <div className="flex justify-center items-center ">
+  <div className="around">
+    <div className="tech-icons">
+      <img src="../logos/html.png" alt="HTML" />
+      <img src="../logos/CSS3_logo_and_wordmark.svg" alt="CSS" />
+      <img src="../logos/react.png" alt="React" />
+      <img src="../logos/javascript.png" alt="JavaScript" />
     </div>
-          </div>
-          <div className="around2">
-          <div className="tech-icons-small">
-      <img src="node.png" alt="Node.js" className="icon" />
-      <img src="docker.png" alt="Docker" className="icon" />
-      <img src="aws.png" alt="AWS" className="icon" />
-      <img src="kubernetes.png" alt="Kubernetes" className="icon" />
+  </div>
+  <div className="around2">
+    <div className="tech-icons-small">
+      <img src="../logos/c.png" alt="C" />
+      <img src="../logos/c++.png" alt="C++" />
+      <img src="../logos/express.png" alt="Express" />
+      <img src="../logos/flutter.png" alt="Flutter" />
     </div>
-          </div>
-            <img
-              src="your-image.jpg" // Replace with your actual image path
-              alt="Vibudesh R B"
-              className="profile"
-            />
-          </div>
+  </div>
+  <img src="../logos/20240807_182030.jpg" alt="Profile" className="profile" />
+</div>
+
         </div>
       </div>
     </section>
